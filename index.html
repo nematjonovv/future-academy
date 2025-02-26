@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue Feb 25 2025 12:33:00 GMT+0000 (Coordinated Universal Time)  -->
+<html
+  data-wf-page="67b4190a6628451a28b30422"
+  data-wf-site="67b4190a6628451a28b30412"
+>
+  <head>
+    <meta charset="utf-8" />
+    <title>Future Academy</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <!-- <link href="css/normalize.css" rel="stylesheet" type="text/css" /> -->
+    <link href="css/webflow.css" rel="stylesheet" type="text/css" />
+    <link href="css/future-academy-23923f.webflow.css" rel="stylesheet" type="text/css"/>
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="images/webclip.png" rel="apple-touch-icon" />
+    <style>
+      .whomitem {
+        position: relative;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-bottom: 3px solid transparent;
+      }
+      .whomitem.active {
+        border-image: linear-gradient(90deg, #f7941d, #27aae1) 1;
+        transition: all 1s ease;
+      }
+      .list-border {
+        border-top: 3px solid transparent;
+        border-image: linear-gradient(90deg, #f7941d, #27aae1) 1;
+        padding: 10px 0 0 0;
+      }
+
+      .reviews {
+        margin-top: 60px;
+        display: flex;
+        background-image: radial-gradient(circle, #27aae1 1px, transparent 1px);
+        background-color: #00093c;
+        background-size: 30px 30px;
+      }
+      .event-blocks,
+      .partners-list,
+      .program-list,
+      .values-cloumn {
+        flex-wrap: wrap;
+      }
+      .lavender {
+        background-color: #ddddff;
+      }
+      .pale-blue {
+        background-color: #c5ddff;
+      }
+      .goldenrod {
+        background-color: #ffe38e;
+      }
+      .plush {
+        background-color: #ffeef6;
+      }
+      .peach {
+        background-color: #ffce94;
+      }
+      .static-num {
+        background: linear-gradient(90deg, #f7941d, #27aae1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <div class="w-layout-blockcontainer container w-container">
+      <img src="images/mainLogo.png" loading="lazy" alt="" />
+
+      <div class="navabar">
+        <a href="index.html" aria-current="page" class="navabaritem w--current"
+          >Главная</a
+        >
+        <a href="event.html" class="navabaritem">Мероприятия</a>
+        <a href="about.html" class="navabaritem">О нас</a>
+        <a href="contact.html" class="navabaritem">Контакты</a>
+      </div>
+      <div data-hover-scale="1.1" data-hover-bg="#003366 " class="contanct">
+        <img
+          src="images/icons8-телефон-50-1.png"
+          loading="lazy"
+          width="20"
+          alt=""
+        />
+        <a href="tel:+7800950-33-98" class="button w-button">8 800 950-33-98</a>
+      </div>
+      <!-- ######## -->
+      <button class="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navBarPlace navBarPlace-toggle">
+        <button class="close-btn">
+          <span></span>
+          <span></span>
+        </button>
+        <div class="phone-navbar">
+          <a href="index.html" aria-current="page" class="navabaritem w--current"
+            >Главная</a
+          >
+          <a href="event.html" class="navabaritem">Мероприятия</a>
+          <a href="about.html" class="navabaritem">О нас</a>
+          <a href="contact.html" class="navabaritem">Контакты</a>
+          <div data-hover-scale="1.1" data-hover-bg="#003366 " class="phone-contact">
+            <img
+              src="images/telephone.png"
+              loading="lazy"
+              width="40"
+              alt=""
+            />
+            <a href="tel:+7800950-33-98" class="button w-button">8 800 950-33-98</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="halfhero">
+        <img src="images/" loading="lazy" alt="" />
+        <div class="textblockhero">
+          <h1 class="heading">Образовательная платформа</h1>
+          <h1 class="heading-2">ХОД Future Academy</h1>
+          <blockquote class="block-quote">
+            Актуальные знания для новичков и профессионалов
+          </blockquote>
+        </div>
+      </div>
+      <div class="div-block-8"><br />‍</div>
+    </div>
+    <div class="w-layout-blockcontainer container-2 w-container">
+      <div class="sova">
+        <p class="paragraph">
+          Кем вы хотите стать?<br /><br />Выберите направление обучения <br />и
+          узнайте, какие возможности вас ждут!<br />Удачи!
+        </p>
+        <img src="images/Сова-01-1.png" loading="lazy" alt="" class="image-2" />
+      </div>
+      <div class="jobs">
+        <div class="whom">
+          <button value="children" class="whomitem active">
+            <img src="images/children.png" loading="lazy" alt="" />
+            <div class="div-block">
+              <h4 class="heading-3">Дети</h4>
+              <p class="paragraph-2">8 — 14 лет</p>
+            </div>
+          </button>
+          <button value="teenagre" class="whomitem">
+            <img src="images/children-1.png" loading="lazy" alt="" />
+            <div class="div-block">
+              <h4 class="heading-3">Подростки</h4>
+              <p class="paragraph-2">14 — 18 лет</p>
+            </div>
+          </button>
+          <button value="grownPerson" class="whomitem">
+            <img src="images/family.png" loading="lazy" alt="" />
+            <div class="div-block">
+              <h4 class="heading-3">Взрослые</h4>
+              <p class="paragraph-2">18 — ∞</p>
+            </div>
+          </button>
+        </div>
+        <div class="jobstype">
+        </div>
+      </div>
+    </div>
+    <div class="w-layout-blockcontainer container-3 w-container">
+      <p class="paragraph-3">
+        Актуальные знания от признанных экспертов рынка<br />
+        для новичков и практикующих специалистов.
+      </p>
+      <div class="statistics">
+        <div class="staristicsitem">
+          <div class="gradient-text">600</div>
+          <p class="statisticparag">Курсов</p>
+        </div>
+        <div class="staristicsitem">
+          <div class="gradient-text">82</div>
+          <p class="statisticparag">Ведущих преподавателей</p>
+        </div>
+        <div class="staristicsitem">
+          <div class="gradient-text">14 795</div>
+          <p class="statisticparag">Выпускников</p>
+        </div>
+      </div>
+    </div>
+    <div class="w-layout-blockcontainer container-4 w-container">
+      <div class="openday">
+        <div class="div-block-2">
+          <h2 class="heading-4">25</h2>
+          <h4 class="heading-5">ноября</h4>
+        </div>
+        <div class="div-block-3">
+          <h1 class="heading-6">День открытых дверей</h1>
+          <p class="paragraph-4">
+            Приглашаем всех желающих на бесплатную экскурсию в мир
+            востребованных профессий и полезных навыков
+          </p>
+        </div>
+        <a href="#" class="button-2 w-button">Записаться</a>
+      </div>
+      <div class="div-block-4">
+        <div class="programstudy">
+          <img
+            src="images/monitor.png"
+            loading="lazy"
+            width="58"
+            alt=""
+            class="image-15"
+          />
+          <h3 class="heading-7">Программы обучения</h3>
+          <p class="paragraph-5">
+            В списке наших курсов вы сможете найти профессию и занятие по душе,
+            изучить новое и получить практические знания, которые помогут
+            получить работу мечты.
+          </p>
+          <a href="#" class="button-3 w-button">Подробнее</a>
+        </div>
+        <div class="div-block-6">
+          <div class="div-block-5">
+            <div class="news">
+              <img
+                src="images/newspaper.png"
+                loading="lazy"
+                width="62"
+                alt=""
+              />
+              <h3 class="heading-18">Новости Академии</h3>
+            </div>
+            <div class="itwrld">
+              <img src="images/diagram.png" loading="lazy" alt="" />
+              <h3>Мир IT</h3>
+            </div>
+          </div>
+          <div class="try">
+            <img
+              src="images/Group-837.png"
+              loading="lazy"
+              alt=""
+              class="image-3"
+            />
+            <div>
+              <h3 class="heading-8">Попробуй!</h3>
+              <p>
+                Пройдите тест и узнайте свои способности в сфере информационных
+                технологий
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="reviews">
+      <h1 class="reviews-h1">Отзывы наших студентов</h1>
+      <div class="reviews-child">
+          <div class="comments">
+            <!-- Kartochkalar dinamik ravishda qo'shiladi -->
+          </div>
+      </div>
+    </div>
+
+    <div class="w-layout-blockcontainer container-5 w-container">
+      <h1 class="heading-9">Добро пожаловать в Академию будущего ХОД</h1>
+      <div class="xod">
+        <div class="xod-item">
+          <img
+            src="images/Group-797.png"
+            loading="lazy"
+            alt=""
+            class="image-4"
+          />
+          <p>Передовой подход к образовательному процессу</p>
+        </div>
+        <div class="xod-item">
+          <img
+            src="images/Group-798.png"
+            loading="lazy"
+            alt=""
+            class="image-5"
+          />
+          <p>Непрерывное усовершенствование и пополнение базы курсов</p>
+        </div>
+        <div class="xod-item">
+          <img
+            src="images/Group-800.png"
+            loading="lazy"
+            alt=""
+            class="image-6"
+          />
+          <p>Только практикующие преподаватели</p>
+        </div>
+        <div class="xod-item">
+          <img
+            src="images/Group-801.png"
+            loading="lazy"
+            alt=""
+            class="image-7"
+          />
+          <p>
+            Сопровождение на всех этапах. От начала обучения до трудоустройства
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="w-layout-blockcontainer form-block w-container">
+      <div class="want-help">
+        <img
+          src="images/Сова-01-1.png"
+          loading="lazy"
+          alt=""
+          class="image-16"
+        />
+        <div class="help-text">
+          <h3 class="heading-10">Помочь с выбором?</h3>
+          <p class="paragraph-6">
+            Оставьте заявку и наши специалисты свяжутся с вами, ответят на все
+            вопросы и подберут подходящий вариант обучения.
+          </p>
+        </div>
+      </div>
+      <div class="form-block-2 w-form">
+        <form
+          id="email-form"
+          name="email-form"
+          data-name="Email Form"
+          method="get"
+          class="form"
+          data-wf-page-id="67b4190a6628451a28b30422"
+          data-wf-element-id="2304c336-d6a3-1c3c-c2b9-ae4b5aac63dd"
+        >
+          <input
+            class="text-field-2 w-input"
+            maxlength="256"
+            name="name"
+            data-name="Name"
+            placeholder="Ваше имя"
+            type="text"
+            id="name"
+          />
+          <div class="btm-inputs">
+            <input
+              class="text-field w-input"
+              maxlength="256"
+              name="email"
+              data-name="Email"
+              placeholder="Ваш телефон"
+              type="tel"
+              id="email"
+              required=""
+            /><input
+              class="text-field-3 w-input"
+              maxlength="256"
+              name="email-2"
+              data-name="Email 2"
+              placeholder="Ваш e-mail"
+              type="email"
+              id="email-2"
+              required=""
+            />
+          </div>
+          <div class="form-btn">
+            <p class="paragraph-7">
+              Нажимая на кнопку, я соглашаюсь <br />на обработку персональных
+              данных<br />и с правилами пользования <br />Платформой
+            </p>
+            <input
+              type="submit"
+              data-wait="Please wait..."
+              class="submit-button w-button"
+              value="Отправить"
+            />
+          </div>
+        </form>
+        <div class="w-form-done">
+          <div>Thank you! Your submission has been received!</div>
+        </div>
+        <div class="w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="footer">
+      <div class="container-5 foot-child">
+        <img class="footLogo" src="images/foot-logo.png" alt="">
+      <div class="footContact">
+        <h3>8 800 950-33-98 </h3>
+        <p>г. Москва, ул. Ленина, д. 50</p>
+        <a href="info@hodfutureacademy.ru" target="_blank">info@hodfutureacademy.ru</a>
+        <div class="society">
+          <img
+            src="images/.png"
+            loading="lazy"
+            alt=""
+            class="society-item"
+          /><img
+            src="images/.png"
+            loading="lazy"
+            alt=""
+            class="society-item"
+          /><img
+            src="images/.png"
+            loading="lazy"
+            alt=""
+            class="society-item"
+          /><img
+            src="images/.png"
+            loading="lazy"
+            alt=""
+            class="society-item"
+          /><img
+            src="images/.png"
+            loading="lazy"
+            alt=""
+            class="society-item"
+          />
+        </div>
+      </div>
+      </div>
+      <p class="end">© ХОД, Future Academy</p>
+    </footer>
+
+    <div class="aboutCourseWrapper aboutHidden">
+      <div class="aboutCourse">
+        <div class="icon">
+          <span class="x-shape"></span>
+        </div>
+        <div class="aboutText">
+          
+      </div>
+    </div>
+
+    <script src="js/webflow.js" type="text/javascript"></script>
+  </body>
+</html>
